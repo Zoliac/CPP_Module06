@@ -1,4 +1,4 @@
-SRC = main.cpp
+SRC = main.cpp Base.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = c++
 RM = rm -f
@@ -6,7 +6,7 @@ CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 # CPPFLAGS += -fsanitize=address 
 # CPPFLAGS += -pedantic -g 
 
-NAME = Convert
+NAME = Identify
 
 all: $(NAME)
 
